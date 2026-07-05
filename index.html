@@ -1,0 +1,253 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <meta name="description" content="CEJIE Decoration menghadirkan dekorasi pernikahan elegan, modern, dan berkesan untuk hari spesial Anda.">
+    <meta name="keywords" content="Wedding Decoration, Dekorasi Pernikahan, Pelaminan, CEJIE Decoration">
+    <meta name="author" content="CEJIE Decoration">
+
+    <title>CEJIE Decoration | Beranda</title>
+
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<script>
+document.addEventListener("DOMContentLoaded", function () {
+    const elements = document.querySelectorAll(".fade-up, .zoom");
+
+    const observer = new IntersectionObserver(function(entries){
+        entries.forEach(function(entry){
+            if(entry.isIntersecting){
+                entry.target.classList.add("show");
+            }
+        });
+    },{
+        threshold:0.15
+    });
+
+    elements.forEach(function(el){
+        observer.observe(el);
+    });
+});
+</script>
+
+<body>
+
+<!-- ================= HEADER ================= -->
+<header>
+
+    <div class="container">
+
+        <nav class="navbar">
+
+            <a href="index.html" class="logo">
+                <img src="gambar/logo.png" alt="Logo">
+                <span>CEJIE Decoration</span>
+            </a>
+
+            <ul class="nav-menu">
+
+                <li><a class="active" href="index.html">Beranda</a></li>
+                <li><a href="layanan.html">Layanan</a></li>
+                <li><a href="alurpemesanan.html">Alur Pemesanan</a></li>
+                <li><a href="portofolio.html">Portofolio</a></li>
+                <li><a href="testimoni.html">Testimoni</a></li>
+                <li><a href="kontak.html">Kontak</a></li>
+
+            </ul>
+
+        </nav>
+
+    </div>
+
+</header>
+
+<!-- ================= HERO ================= -->
+
+<section class="hero fade-up">
+    <div class="hero-overlay"></div>
+    <div class="container">
+        <div class="hero-content">
+            <span class="hero-subtitle">
+                WEDDING DECORATION PROFESSIONAL
+            </span>
+
+            <h1>
+                Wujudkan Dekorasi <br>
+                Pernikahan Impian Bersama <br>
+                <span>CEJIE Decoration</span>
+            </h1>
+
+            <p>
+                Kami menghadirkan dekorasi pernikahan yang elegan,
+                modern, dan penuh makna.
+                Dengan sentuhan profesional,
+                setiap detail dirancang untuk menciptakan
+                momen yang indah dan tak terlupakan.
+            </p>
+
+            <div class="hero-buttons">
+                <a href="layanan.html" class="btn-primary">
+                    Lihat Layanan
+                </a>
+            </div>
+
+        </div>
+
+    </div>
+
+</section>
+
+<!-- ================= ABOUT ================= -->
+
+<section class="about fade-up">
+    <div class="container">
+        <div class="section-title">
+            <h2>Tentang CEJIE Decoration</h2>
+            <p>
+                Menghadirkan dekorasi yang bukan hanya indah dipandang,
+                tetapi juga mampu menciptakan suasana hangat dan berkesan
+                di hari spesial Anda.
+            </p>
+
+        <div class="about-grid">
+
+            <div class="about-content">
+
+                <h3>
+                    Dekorasi Berkualitas dengan Sentuhan Elegan
+                </h3>
+
+                <p>
+                    CEJIE Decoration berkomitmen memberikan pelayanan
+                    terbaik dalam dekorasi pernikahan, lamaran,
+                    akad nikah, hingga berbagai acara spesial lainnya.
+                </p>
+
+                <p>
+                    Kami percaya bahwa setiap pasangan memiliki cerita
+                    yang berbeda, sehingga setiap dekorasi kami rancang
+                    secara personal sesuai konsep dan impian Anda.
+                </p>
+
+                <a href="kontak.html" class="btn-primary">
+                    Konsultasi Sekarang
+                </a>
+
+            </div>
+
+        </div>
+
+    </div>
+
+</section>
+
+<!-- ================= WHY CHOOSE US ================= -->
+
+<section class="why zoom">
+    <div class="container">
+        <div class="section-title">
+            <h2>Mengapa Memilih Kami?</h2>
+        </div>
+        <div class="card-grid">
+            <div class="card">
+                <h3>Desain Eksklusif</h3>
+                <p>
+                    Setiap dekorasi dibuat sesuai konsep dan keinginan
+                    pasangan.
+                </p>
+            </div>
+
+            <div class="card">
+                <h3>Tim Profesional</h3>
+                <p>
+                    Berpengalaman menangani berbagai konsep dekorasi
+                    pernikahan.
+                </p>
+            </div>
+
+            <div class="card">
+                <h3>Material Berkualitas</h3>
+                <p>
+                    Menggunakan bunga, kain, dan dekorasi pilihan
+                    berkualitas tinggi.
+                </p>
+            </div>
+
+            <div class="card">
+                <h3>Harga Transparan</h3>
+                <p>
+                    Paket dekorasi disesuaikan dengan kebutuhan tanpa
+                    biaya tersembunyi.
+                </p>
+            </div>
+
+        </div>
+
+    </div>
+
+</section>
+
+<!-- ================= CTA ================= -->
+
+<section class="cta fade-up">
+    <div class="container">
+        <h2>
+            Jadikan Hari Bahagia Anda Lebih Berkesan
+        </h2>
+        <p>
+            Konsultasikan konsep dekorasi impian Anda bersama tim
+            CEJIE Decoration.
+        </p>
+
+        <a href="kontak.html" class="btn-primary">
+            Hubungi Kami
+        </a>
+    </div>
+</section>
+
+<!-- ================= FOOTER ================= -->
+
+<footer>
+    <div class="container footer-grid">
+        <div>
+            <h3>CEJIE Decoration</h3>
+            <p>
+                Partner terpercaya untuk dekorasi pernikahan yang
+                elegan, profesional, dan berkesan.
+            </p>
+        </div>
+
+        <div>
+            <h4>Navigasi</h4>
+            <ul>
+                <li><a href="index.html">Beranda</a></li>
+                <li><a href="layanan.html">Layanan</a></li>
+                <li><a href="alurpemesanan.html">Alur Pemesanan</a></li>
+                <li><a href="portofolio.html">Portofolio</a></li>
+                <li><a href="testimoni.html">Testimoni</a></li>
+                <li><a href="kontak.html">Kontak</a></li>
+            </ul>
+
+        </div>
+
+        <div>
+
+            <h4>Hubungi Kami</h4>
+            <p>Email : info@cejiedecoration.com</p>
+            <p>WhatsApp : 08xxxxxxxxxx</p>
+            <p>Jam Operasional : 08.00 - 20.00 WIB</p>
+        </div>
+
+    </div>
+
+    <div class="copyright">
+        © 2026 CEJIE Decoration. All Rights Reserved.
+    </div>
+
+</footer>
+
+</body>
+</html>

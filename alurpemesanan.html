@@ -1,0 +1,396 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Alur Pemesanan | CEJIE Decoration</title>
+
+    <meta name="description" content="Proses pemesanan dekorasi di CEJIE Decoration yang mudah, transparan, dan profesional.">
+
+    <link rel="stylesheet" href="style.css">
+
+</head>
+
+<script>
+document.addEventListener("DOMContentLoaded", function () {
+    const elements = document.querySelectorAll(".fade-up, .zoom");
+
+    const observer = new IntersectionObserver(function(entries){
+        entries.forEach(function(entry){
+            if(entry.isIntersecting){
+                entry.target.classList.add("show");
+            }
+        });
+    },{
+        threshold:0.15
+    });
+
+    elements.forEach(function(el){
+        observer.observe(el);
+    });
+});
+</script>
+
+<body>
+
+<!-- ================= HEADER ================= -->
+
+<header>
+
+    <div class="container">
+
+        <nav class="navbar">
+
+            <a href="alurpemesanan.html" class="logo">
+                <img src="gambar/logo.png" alt="Logo">
+                CEJIE <span>Decoration</span>
+            </a>
+
+            <ul class="nav-menu">
+                <li><a href="index.html">Beranda</a></li>
+                <li><a href="layanan.html">Layanan</a></li>
+                <li><a class="active" href="alurpemesanan.html">Alur Pemesanan</a></li>
+                <li><a href="portofolio.html">Portofolio</a></li>
+                <li><a href="testimoni.html">Testimoni</a></li>
+                <li><a href="kontak.html">Kontak</a></li>
+            </ul>
+
+        </nav>
+
+    </div>
+
+</header>
+
+<!-- ================= PAGE HERO ================= -->
+
+<section class="page-banner fade-up">
+    <div class="container">
+        <h1>Alur Pemesanan</h1>
+        <p>
+            Kami membuat proses pemesanan menjadi lebih mudah,
+            transparan, dan nyaman agar Anda dapat fokus
+            mempersiapkan hari bahagia.
+        </p>
+    </div>
+</section>
+
+<!-- ================= TIMELINE ================= -->
+
+<section class="timeline-section fade-up">
+    <div class="container">
+        <div class="section-title">
+            <h2>Langkah Pemesanan</h2>
+            <p>
+                Ikuti beberapa tahapan berikut untuk memulai
+                dekorasi impian bersama CEJIE Decoration.
+            </p>
+        </div>
+        <div class="timeline">
+
+            <!-- STEP 1 -->
+            <div class="timeline-item zoom">
+                <div class="timeline-number">
+                    01
+                </div>
+                <div class="timeline-content">
+                    <h3>Hubungi Kami</h3>
+                    <p>
+                        Silakan menghubungi kami melalui WhatsApp,
+                        telepon, atau mengisi formulir kontak untuk
+                        konsultasi awal.
+                    </p>
+                </div>
+            </div>
+
+            <!-- STEP 2 -->
+
+            <div class="timeline-item zoom">
+
+                <div class="timeline-number">
+                    02
+                </div>
+
+                <div class="timeline-content">
+
+                    <h3>Konsultasi Konsep</h3>
+
+                    <p>
+
+                        Diskusikan tema, warna, lokasi,
+                        jumlah tamu, serta konsep dekorasi
+                        yang Anda inginkan.
+
+                    </p>
+
+                </div>
+
+            </div>
+
+            <!-- STEP 3 -->
+
+            <div class="timeline-item zoom">
+
+                <div class="timeline-number">
+                    03
+                </div>
+
+                <div class="timeline-content">
+
+                    <h3>Survey Lokasi</h3>
+
+                    <p>
+
+                        Tim kami akan melakukan survey lokasi
+                        apabila diperlukan agar dekorasi dapat
+                        dirancang secara maksimal.
+
+                    </p>
+
+                </div>
+
+            </div>
+
+            <!-- STEP 4 -->
+
+            <div class="timeline-item zoom">
+
+                <div class="timeline-number">
+                    04
+                </div>
+
+                <div class="timeline-content">
+
+                    <h3>Penawaran Harga</h3>
+
+                    <p>
+
+                        Kami akan memberikan rincian paket,
+                        desain, dan biaya secara transparan
+                        tanpa biaya tersembunyi.
+
+                    </p>
+
+                </div>
+
+            </div>
+
+            <!-- STEP 5 -->
+
+            <div class="timeline-item zoom">
+
+                <div class="timeline-number">
+                    05
+                </div>
+
+                <div class="timeline-content">
+
+                    <h3>DP & Konfirmasi</h3>
+
+                    <p>
+
+                        Setelah kesepakatan tercapai,
+                        pelanggan melakukan pembayaran
+                        uang muka sebagai tanda jadi.
+
+                    </p>
+
+                </div>
+
+            </div>
+
+            <!-- STEP 6 -->
+
+            <div class="timeline-item zoom">
+
+                <div class="timeline-number">
+                    06
+                </div>
+
+                <div class="timeline-content">
+
+                    <h3>Hari Pelaksanaan</h3>
+
+                    <p>
+
+                        Tim CEJIE Decoration akan menyiapkan
+                        seluruh dekorasi sesuai jadwal sehingga
+                        acara berjalan lancar dan berkesan.
+
+                    </p>
+
+                </div>
+
+            </div>
+
+        </div>
+
+    </div>
+
+</section>
+
+<!-- ================= FAQ ================= -->
+
+<section class="faq fade-up">
+
+    <div class="container">
+
+        <div class="section-title">
+
+            <h2>Pertanyaan yang Sering Diajukan</h2>
+
+        </div>
+
+        <div class="faq-item zoom">
+
+            <h3>Berapa lama proses pemesanan?</h3>
+
+            <p>
+
+                Kami menyarankan melakukan pemesanan minimal
+                1–3 bulan sebelum hari acara agar seluruh
+                persiapan dapat dilakukan secara optimal.
+
+            </p>
+
+        </div>
+
+        <div class="faq-item zoom">
+
+            <h3>Apakah bisa request tema khusus?</h3>
+
+            <p>
+
+                Ya. Kami menerima konsep dekorasi yang
+                disesuaikan dengan keinginan dan kebutuhan
+                setiap pasangan.
+
+            </p>
+
+        </div>
+
+        <div class="faq-item zoom">
+
+            <h3>Apakah tersedia paket dekorasi?</h3>
+
+            <p>
+
+                Tersedia berbagai pilihan paket yang dapat
+                disesuaikan dengan anggaran maupun skala acara.
+
+            </p>
+
+        </div>
+
+        <div class="faq-item zoom">
+
+            <h3>Apakah melayani dekorasi di luar kota?</h3>
+
+            <p>
+
+                Ya, dengan penyesuaian biaya transportasi
+                dan akomodasi sesuai lokasi acara.
+
+            </p>
+
+        </div>
+
+    </div>
+
+</section>
+
+<!-- ================= CTA ================= -->
+
+<section class="cta fade-up">
+
+    <div class="container">
+
+        <h2>
+
+            Siap Mewujudkan Dekorasi Impian Anda?
+
+        </h2>
+
+        <p>
+
+            Konsultasikan kebutuhan acara Anda bersama tim
+            CEJIE Decoration dan dapatkan penawaran terbaik.
+
+        </p>
+
+        <a href="kontak.html" class="btn-primary">
+
+            Konsultasi Sekarang
+
+        </a>
+
+    </div>
+
+</section>
+
+<!-- ================= FOOTER ================= -->
+
+<footer>
+
+    <div class="container footer-grid">
+
+        <div>
+
+            <h3>CEJIE Decoration</h3>
+
+            <p>
+
+                Dekorasi pernikahan profesional dengan konsep
+                elegan, modern, dan berkesan.
+
+            </p>
+
+        </div>
+
+        <div>
+
+            <h4>Navigasi</h4>
+
+            <ul>
+
+                <li><a href="index.html">Beranda</a></li>
+
+                <li><a href="layanan.html">Layanan</a></li>
+
+                <li><a href="alur-pemesanan.html">Alur Pemesanan</a></li>
+
+                <li><a href="portofolio.html">Portofolio</a></li>
+
+                <li><a href="testimoni.html">Testimoni</a></li>
+
+                <li><a href="kontak.html">Kontak</a></li>
+
+            </ul>
+
+        </div>
+
+        <div>
+
+            <h4>Hubungi Kami</h4>
+
+            <p>Email : info@cejiedecoration.com</p>
+
+            <p>WhatsApp : 08xxxxxxxxxx</p>
+
+            <p>Jam Operasional : 08.00 - 20.00 WIB</p>
+
+        </div>
+
+    </div>
+
+    <div class="copyright">
+
+        © 2026 CEJIE Decoration. All Rights Reserved.
+
+    </div>
+
+</footer>
+
+</body>
+</html>

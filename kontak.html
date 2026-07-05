@@ -1,0 +1,335 @@
+<!DOCTYPE html>
+<html lang="id">
+
+<head>
+
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Kontak | CEJIE Decoration</title>
+
+    <meta name="description" content="Hubungi CEJIE Decoration untuk konsultasi dekorasi pernikahan, lamaran, akad, dan berbagai acara spesial.">
+
+    <link rel="stylesheet" href="style.css">
+
+</head>
+
+<script>
+document.addEventListener("DOMContentLoaded", function () {
+    const elements = document.querySelectorAll(".fade-up, .zoom");
+
+    const observer = new IntersectionObserver(function(entries){
+        entries.forEach(function(entry){
+            if(entry.isIntersecting){
+                entry.target.classList.add("show");
+            }
+        });
+    },{
+        threshold:0.15
+    });
+
+    elements.forEach(function(el){
+        observer.observe(el);
+    });
+});
+</script>
+
+<body class="inner-page">
+
+<!-- ================= HEADER ================= -->
+
+<header>
+
+    <div class="container">
+
+        <nav class="navbar">
+
+            <a href="kontak.html" class="logo">
+                <img src="gambar/logo.png" alt="Logo">
+                CEJIE <span>Decoration</span>
+            </a>
+
+            <ul class="nav-menu">
+                <li><a href="index.html">Beranda</a></li>
+                <li><a href="layanan.html">Layanan</a></li>
+                <li><a href="alurpemesanan.html">Alur Pemesanan</a></li>
+                <li><a href="portofolio.html">Portofolio</a></li>
+                <li><a href="testimoni.html">Testimoni</a></li>
+                <li><a class="active" href="kontak.html">Kontak</a></li>
+            </ul>
+
+        </nav>
+
+    </div>
+
+</header>
+
+<!-- ================= CONTACT ================= -->
+
+<section class="contact fade-up">
+    <div class="container contact-grid">
+
+        <!-- LEFT -->
+        <div class="contact-info">
+            <h2>Informasi Kontak</h2>
+            <p>
+                Hubungi kami melalui informasi berikut atau isi formulir
+                konsultasi untuk mendapatkan penawaran terbaik.
+            </p>
+
+            <div class="info-box">
+                <h4>📍 Alamat</h4>
+                <p>
+                    Jambi, Indonesia
+                </p>
+            </div>
+
+            <div class="info-box">
+                <h4>📞 WhatsApp</h4>
+                <p>
+                    08xxxxxxxxxx
+                </p>
+            </div>
+
+            <div class="info-box">
+                <h4>✉ Email</h4>
+                <p>
+                    info@cejiedecoration.com
+                </p>
+
+            </div>
+            <div class="info-box">
+                <h4>🕘 Jam Operasional</h4>
+                <p>
+                    Senin - Minggu
+                    <br>
+                    08.00 - 20.00 WIB
+                </p>
+
+            </div>
+
+        </div>
+
+        <!-- RIGHT -->
+
+        <div class="contact-form">
+            <h2>Form Konsultasi</h2>
+            <form>
+                <input
+                    type="text"
+                    placeholder="Nama Lengkap"
+                    required
+                >
+                <input
+                    type="email"
+                    placeholder="Email"
+                    required
+                >
+                <input
+                    type="tel"
+                    placeholder="Nomor WhatsApp"
+                    required
+                >
+                <input
+                    type="date"
+                >
+                <input
+                    type="text"
+                    placeholder="Lokasi Acara"
+                >
+                <select>
+                    <option>Pilih Layanan</option>
+                    <option>Pelaminan</option>
+                    <option>Akad Nikah</option>
+                    <option>Resepsi</option>
+                    <option>Lamaran</option>
+                    <option>Photobooth</option>
+                    <option>Custom Decoration</option>
+                </select>
+
+                <textarea
+                    rows="6"
+                    placeholder="Ceritakan konsep dekorasi yang Anda inginkan..."
+                ></textarea>
+
+                <button class="btn-primary">
+                    Kirim Konsultasi
+                </button>
+
+            </form>
+
+        </div>
+
+    </div>
+
+</section>
+
+<!-- ================= MAP ================= -->
+
+<section class="map-section">
+    <div class="container">
+        <div class="section-title">
+            <h2>Lokasi Kami</h2>
+            <p>
+                Anda juga dapat mengunjungi lokasi kami
+                untuk melakukan konsultasi secara langsung.
+            </p>
+        </div>
+
+    </div>
+
+</section>
+
+<!-- ================= FAQ ================= -->
+
+<section class="faq zoom">
+
+    <div class="container">
+
+        <div class="section-title">
+
+            <h2>Pertanyaan Umum</h2>
+
+        </div>
+
+        <div class="faq-item">
+
+            <h3>Apakah konsultasi dikenakan biaya?</h3>
+
+            <p>
+
+                Tidak.
+                Konsultasi awal sepenuhnya gratis.
+
+            </p>
+
+        </div>
+
+        <div class="faq-item">
+
+            <h3>Apakah dekorasi bisa disesuaikan dengan budget?</h3>
+
+            <p>
+
+                Ya.
+                Kami menyediakan berbagai pilihan paket dan konsep
+                sesuai kebutuhan pelanggan.
+
+            </p>
+
+        </div>
+
+        <div class="faq-item">
+
+            <h3>Berapa lama proses pemasangan dekorasi?</h3>
+
+            <p>
+
+                Tergantung konsep yang dipilih,
+                namun seluruh pemasangan dilakukan sebelum acara dimulai.
+
+            </p>
+
+        </div>
+
+    </div>
+
+</section>
+
+<!-- ================= CTA ================= -->
+
+<section class="cta fade-up">
+
+    <div class="container">
+
+        <h2>
+
+            Wujudkan Hari Bahagia Bersama Kami
+
+        </h2>
+
+        <p>
+
+            Tim CEJIE Decoration siap membantu menciptakan dekorasi
+            yang elegan dan sesuai impian Anda.
+
+        </p>
+
+        <a href="https://wa.me/6282279413968" class="btn-primary">
+
+            Chat via WhatsApp
+
+        </a>
+
+    </div>
+
+</section>
+
+<!-- ================= FOOTER ================= -->
+
+<footer>
+
+    <div class="container footer-grid">
+
+        <div>
+
+            <h3>CEJIE Decoration</h3>
+
+            <p>
+
+                Partner terbaik untuk dekorasi
+                pernikahan yang elegan,
+                modern,
+                dan berkesan.
+
+            </p>
+
+        </div>
+
+        <div>
+
+            <h4>Quick Links</h4>
+
+            <ul>
+
+                <li><a href="index.html">Beranda</a></li>
+
+                <li><a href="layanan.html">Layanan</a></li>
+
+                <li><a href="alurpemesanan.html">Alur Pemesanan</a></li>
+
+                <li><a href="portofolio.html">Portofolio</a></li>
+
+                <li><a href="testimoni.html">Testimoni</a></li>
+
+                <li><a href="kontak.html">Kontak</a></li>
+
+            </ul>
+
+        </div>
+
+        <div>
+
+            <h4>Ikuti Kami</h4>
+
+            <p>Instagram</p>
+
+            <p>Facebook</p>
+
+            <p>TikTok</p>
+
+        </div>
+
+    </div>
+
+    <div class="copyright">
+
+        © 2026 CEJIE Decoration. All Rights Reserved.
+
+    </div>
+
+</footer>
+
+</body>
+
+</html>

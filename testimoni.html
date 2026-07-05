@@ -1,0 +1,290 @@
+<!DOCTYPE html>
+<html lang="id">
+
+<head>
+
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Testimoni | CEJIE Decoration</title>
+
+    <meta name="description" content="Lihat pengalaman pelanggan yang telah mempercayakan dekorasi pernikahannya kepada CEJIE Decoration.">
+
+    <link rel="stylesheet" href="style.css">
+
+</head>
+
+<script>
+document.addEventListener("DOMContentLoaded", function () {
+    const elements = document.querySelectorAll(".fade-up, .zoom");
+
+    const observer = new IntersectionObserver(function(entries){
+        entries.forEach(function(entry){
+            if(entry.isIntersecting){
+                entry.target.classList.add("show");
+            }
+        });
+    },{
+        threshold:0.15
+    });
+
+    elements.forEach(function(el){
+        observer.observe(el);
+    });
+});
+</script>
+
+<body>
+
+<!-- ================= HEADER ================= -->
+
+<header>
+
+    <div class="container">
+
+        <nav class="navbar">
+
+            <a href="testimoni.html" class="logo">
+                <img src="gambar/logo.png" alt="Logo">
+                CEJIE <span>Decoration</span>
+            </a>
+
+            <ul class="nav-menu">
+                <li><a href="index.html">Beranda</a></li>
+                <li><a href="layanan.html">Layanan</a></li>
+                <li><a href="alurpemesanan.html">Alur Pemesanan</a></li>
+                <li><a href="portofolio.html">Portofolio</a></li>
+                <li><a class="active" href="testimoni.html">Testimoni</a></li>
+                <li><a href="kontak.html">Kontak</a></li>
+            </ul>
+
+        </nav>
+
+    </div>
+
+</header>
+
+<!-- ================= HERO ================= -->
+
+<section class="page-banner fade-up">
+
+    <div class="container">
+
+        <h1>Testimoni Pelanggan</h1>
+
+        <p>
+            Kepuasan pelanggan adalah prioritas kami.
+            Berikut pengalaman pasangan yang telah mempercayakan
+            momen spesialnya kepada CEJIE Decoration.
+        </p>
+
+    </div>
+
+</section>
+
+<!-- ================= RATING ================= -->
+
+<section class="rating-section fade-up">
+    <div class="container">
+        <div class="rating-box">
+            <h2>4.9 ★★★★★</h2>
+            <p>
+                Berdasarkan kepuasan lebih dari
+                <strong>250+ pelanggan</strong>
+            </p>
+        </div>
+    </div>
+</section>
+
+<!-- ================= TESTIMONIAL ================= -->
+
+<section class="testimonial-section fade-up">
+    <div class="container">
+        <div class="section-title">
+            <h2>Apa Kata Mereka?</h2>
+            <p>
+                Kami bangga menjadi bagian dari hari bahagia
+                para pelanggan kami.
+            </p>
+        </div>
+        <div class="testimonial-grid">
+
+            <!-- CARD 1 -->
+            <div class="testimonial-card zoom">
+                <img src="gambar/client 1.jpeg" alt="Customer">
+                <h3>Nabila & Fajar</h3>
+                <span>★★★★★</span>
+                <p>
+                    Dekorasinya sangat indah dan melebihi ekspektasi kami.
+                    Semua tamu memuji hasilnya.
+                </p>
+            </div>
+
+            <!-- CARD 2 -->
+            <div class="testimonial-card zoom">
+                <img src="gambar/client 2.jpeg" alt="Customer">
+                <h3>Rizky & Dinda</h3>
+                <span>★★★★★</span>
+                <p>
+                    Tim sangat profesional, ramah,
+                    dan tepat waktu. Prosesnya juga sangat mudah.
+                </p>
+            </div>
+
+            <!-- CARD 3 -->
+            <div class="testimonial-card zoom">
+                <img src="gambar/client 3.jpeg" alt="Customer">
+                <h3>Arif & Putri</h3>
+                <span>★★★★★</span>
+                <p>
+                    Konsep dekorasi benar-benar sesuai impian kami.
+                    Terima kasih CEJIE Decoration.
+                </p>
+            </div>
+
+            <!-- CARD 4 -->
+            <div class="testimonial-card zoom">
+                <img src="gambar/client 4.jpeg" alt="Customer">
+                <h3>Kevin & Salsa</h3>
+                <span>★★★★★</span>
+                <p>
+                    Pelayanan sangat memuaskan.
+                    Semua proses berjalan lancar sampai hari H.
+                </p>
+            </div>
+
+            <!-- CARD 5 -->
+            <div class="testimonial-card zoom">
+                <img src="gambar/client 5.jpeg" alt="Customer">
+                <h3>Rahmat & Livia</h3>
+                <span>★★★★★</span>
+                <p>
+                    Hasil dekorasi sangat elegan,
+                    bahkan lebih bagus dari referensi yang kami kirim.
+                </p>
+            </div>
+
+            <!-- CARD 6 -->
+            <div class="testimonial-card zoom">
+                <img src="gambar/client 6.jpeg" alt="Customer">
+                <h3>Rama & Vina</h3>
+                <span>★★★★★</span>
+                <p>
+                    Sangat direkomendasikan.
+                    Tim bekerja dengan detail dan hasilnya luar biasa.
+                </p>
+            </div>
+
+        </div>
+
+    </div>
+
+</section>
+
+<!-- ================= WHY TRUST ================= -->
+
+<section class="why fade-up">
+    <div class="container">
+        <div class="section-title">
+            <h2>Mengapa Pelanggan Memilih Kami?</h2>
+        </div>
+        <div class="card-grid">
+            <div class="card zoom">
+                <h3>Pelayanan Ramah</h3>
+                <p>
+                    Tim kami siap membantu sejak konsultasi hingga acara selesai.
+                </p>
+            </div>
+
+            <div class="card zoom">
+                <h3>Konsep Custom</h3>
+                <p>
+                    Dekorasi dibuat sesuai tema dan keinginan setiap pasangan.
+                </p>
+            </div>
+
+            <div class="card zoom">
+                <h3>Tepat Waktu</h3>
+                <p>
+                    Seluruh proses pemasangan dilakukan sesuai jadwal yang telah disepakati.
+                </p>
+            </div>
+
+            <div class="card zoom">
+                <h3>Harga Transparan</h3>
+                <p>
+                    Tidak ada biaya tersembunyi, semua dijelaskan sejak awal.
+                </p>
+            </div>
+
+        </div>
+
+    </div>
+
+</section>
+
+<!-- ================= CTA ================= -->
+
+<section class="cta fade-up">
+    <div class="container">
+        <h2>
+            Siap Menjadi Pasangan Berikutnya?
+        </h2>
+        <p>
+            Mari wujudkan dekorasi pernikahan impian Anda bersama
+            CEJIE Decoration.
+        </p>
+
+        <a href="kontak.html" class="btn-primary">
+            Hubungi Kami
+        </a>
+
+    </div>
+
+</section>
+
+<!-- ================= FOOTER ================= -->
+
+<footer>
+
+    <div class="container footer-grid">
+        <div>
+            <h3>CEJIE Decoration</h3>
+            <p>
+                Partner terpercaya untuk dekorasi
+                pernikahan yang elegan dan berkelas.
+            </p>
+        </div>
+
+        <div>
+            <h4>Navigasi</h4>
+            <ul>
+                <li><a href="index.html">Beranda</a></li>
+                <li><a href="layanan.html">Layanan</a></li>
+                <li><a href="alurpemesanan.html">Alur Pemesanan</a></li>
+                <li><a href="portofolio.html">Portofolio</a></li>
+                <li><a href="testimoni.html">Testimoni</a></li>
+                <li><a href="kontak.html">Kontak</a></li>
+            </ul>
+
+        </div>
+
+        <div>
+            <h4>Hubungi Kami</h4>
+            <p>Email : info@cejiedecoration.com</p>
+            <p>WhatsApp : 08xxxxxxxxxx</p>
+            <p>Jam Operasional : 08.00 - 20.00 WIB</p>
+        </div>
+
+    </div>
+
+    <div class="copyright">
+
+        © 2026 CEJIE Decoration. All Rights Reserved.
+
+    </div>
+
+</footer>
+
+</body>
+</html>

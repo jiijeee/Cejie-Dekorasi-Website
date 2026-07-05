@@ -1,0 +1,300 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Layanan | CEJIE Decoration</title>
+
+    <meta name="description" content="Berbagai layanan dekorasi pernikahan dari CEJIE Decoration untuk mewujudkan momen istimewa Anda.">
+
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<script>
+document.addEventListener("DOMContentLoaded", function () {
+    const elements = document.querySelectorAll(".fade-up, .zoom");
+
+    const observer = new IntersectionObserver(function(entries){
+        entries.forEach(function(entry){
+            if(entry.isIntersecting){
+                entry.target.classList.add("show");
+            }
+        });
+    },{
+        threshold:0.15
+    });
+
+    elements.forEach(function(el){
+        observer.observe(el);
+    });
+});
+</script>
+
+<body class="inner-page">
+
+
+<!-- ================= HEADER ================= -->
+
+<header>
+
+    <div class="container">
+        <nav class="navbar">
+            <a href="layanan.html" class="logo">
+                <img src="gambar/logo.png" alt="Logo">
+                CEJIE <span>Decoration</span>
+            </a>
+
+            <ul class="nav-menu">
+                <li><a href="index.html">Beranda</a></li>
+                <li><a class="active" href="layanan.html">Layanan</a></li>
+                <li><a href="alurpemesanan.html">Alur Pemesanan</a></li>
+                <li><a href="portofolio.html">Portofolio</a></li>
+                <li><a href="testimoni.html">Testimoni</a></li>
+                <li><a href="kontak.html">Kontak</a></li>
+            </ul>
+        </nav>
+    </div>
+</header>
+
+<!-- ================= SERVICES ================= -->
+
+<section class="services fade-up">
+    <div class="container">
+        <div class="section-title">
+            <h2>Pilihan Layanan Kami</h2>
+            <p>
+                Setiap dekorasi dirancang dengan perhatian pada detail,
+                kualitas, dan estetika untuk menciptakan suasana yang
+                elegan serta berkesan.
+            </p>
+        </div>
+
+        <div class="service-grid">
+
+            <!-- CARD 1 -->
+
+            <div class="service-card zoom">
+                <img src="gambar/pelaminan modern.jpeg" alt="Pelaminan Modern">
+                <div class="service-content">
+                    <h3>Pelaminan Modern</h3>
+                    <p>
+                        Konsep minimalis, elegan, dan mewah dengan
+                        sentuhan dekorasi yang mengikuti tren masa kini.
+                    </p>
+                    <a href="kontak.html" class="btn-primary">
+                        Konsultasi
+                    </a>
+                </div>
+            </div>
+
+            <!-- CARD 2 -->
+
+            <div class="service-card zoom">
+                <img src="gambar/pelaminan adat.jpeg" alt="Pelaminan Adat">
+                <div class="service-content">
+                    <h3>Pelaminan Adat</h3>
+                    <p>
+                        Menampilkan keindahan budaya melalui dekorasi
+                        adat yang dipadukan dengan sentuhan elegan.
+                    </p>
+                    <a href="kontak.html" class="btn-primary">
+                        Konsultasi
+                    </a>
+                </div>
+            </div>
+
+            <!-- CARD 3 -->
+
+            <div class="service-card zoom">
+                <img src="gambar/akad nikah.jpeg" alt="Akad Nikah">
+                <div class="service-content">
+                    <h3>Akad Nikah</h3>
+                    <p>
+                        Dekorasi sederhana namun berkelas untuk
+                        menciptakan suasana akad yang sakral.
+                    </p>
+                    <a href="kontak.html" class="btn-primary">
+                        Konsultasi
+                    </a>
+                </div>
+            </div>
+
+
+            <!-- CARD 4 -->
+
+            <div class="service-card zoom">
+                <img src="gambar/lamaran.jpeg" alt="Lamaran">
+                <div class="service-content">
+                    <h3>Lamaran</h3>
+                    <p>
+                        Dekorasi hangat dan romantis untuk momen
+                        lamaran yang penuh kebahagiaan.
+                    </p>
+                    <a href="kontak.html" class="btn-primary">
+                        Konsultasi
+                    </a>
+                </div>
+            </div>
+
+            <!-- CARD 5 -->
+
+            <div class="service-card zoom">
+                <img src="gambar/bridal room.jpeg" alt="Bridal Room">
+                <div class="service-content">
+                    <h3>Bridal Room</h3>
+                    <p>
+                        Penataan ruang pengantin yang nyaman,
+                        elegan, dan estetik untuk persiapan acara.
+                    </p>
+                    <a href="kontak.html" class="btn-primary">
+                        Konsultasi
+                    </a>
+
+                </div>
+
+            </div>
+
+            <!-- CARD 6 -->
+
+            <div class="service-card zoom">
+                <img src="gambar/photobooth.jpeg" alt="Photobooth">
+                <div class="service-content">
+                    <h3>Photobooth</h3>
+                    <p>
+                        Area foto menarik yang menjadi spot favorit
+                        tamu untuk mengabadikan momen.
+                    </p>
+                    <a href="kontak.html" class="btn-primary">
+                        Konsultasi
+                    </a>
+                </div>
+            </div>
+
+            <!-- CARD 7 -->
+
+            <div class="service-card zoom">
+                <img src="gambar/entrance.jpeg" alt="Entrance Decoration">
+                <div class="service-content">
+                    <h3>Entrance Decoration</h3>
+                    <p>
+                        Dekorasi pintu masuk yang memberikan kesan
+                        pertama yang mewah dan berkelas.
+                    </p>
+                    <a href="kontak.html" class="btn-primary">
+                        Konsultasi
+                    </a>
+                </div>
+            </div>
+
+            <!-- CARD 8 -->
+
+            <div class="service-card zoom">
+                <img src="gambar/hena.jpeg" alt="Wedding Hena">
+                <div class="service-content">
+                    <h3>Wedding Hena</h3>
+                    <p>
+                    henna pengantin dengan desain elegan yang dapat 
+                    disesuaikan dengan tema dan keinginan Anda.
+                    </p>
+                    <a href="kontak.html" class="btn-primary">
+                        Konsultasi
+                    </a>
+                </div>
+            </div>
+
+            <!-- CARD 9 -->
+
+            <div class="service-card zoom">
+                <img src="gambar/bouquet.jpg" alt="Wedding bouquet">
+                <div class="service-content">
+                    <h3>Wedding bouquet</h3>
+                    <p>
+                    Rangkaian bunga pengantin yang dirancang cantik sesuai konsep pernikahan.
+                    Tersedia pilihan bunga segar maupun artificial berkualitas.       
+                    </p>
+                    <a href="kontak.html" class="btn-primary">
+                        Konsultasi
+                    </a>
+                </div>
+            </div>
+
+        </div>
+
+    </div>
+
+</section>
+
+<!-- ================= CTA ================= -->
+
+<section class="cta">
+
+    <div class="container">
+
+        <h2>
+            Belum Menemukan Konsep yang Anda Inginkan?
+        </h2>
+
+        <p>
+            Tim CEJIE Decoration siap membantu merancang dekorasi
+            sesuai tema, lokasi, dan anggaran yang Anda miliki.
+        </p>
+
+        <a href="kontak.html" class="btn-primary">
+            Hubungi Kami
+        </a>
+
+    </div>
+
+</section>
+
+<!-- ================= FOOTER ================= -->
+
+<footer>
+
+    <div class="container footer-grid">
+
+        <div>
+
+            <h3>CEJIE Decoration</h3>
+
+            <p>
+                Dekorasi pernikahan profesional dengan konsep elegan,
+                modern, dan berkesan.
+            </p>
+
+        </div>
+
+        <div>
+
+            <h4>Navigasi</h4>
+
+            <ul>
+                <li><a href="index.html">Beranda</a></li>
+                <li><a href="layanan.html">Layanan</a></li>
+                <li><a href="alurpemesanan.html">Alur Pemesanan</a></li>
+                <li><a href="portofolio.html">Portofolio</a></li>
+                <li><a href="testimoni.html">Testimoni</a></li>
+                <li><a href="kontak.html">Kontak</a></li>
+            </ul>
+        </div>
+
+        <div>
+            <h4>Hubungi Kami</h4>
+            <p>Email : info@cejiedecoration.com</p>
+            <p>WhatsApp : 08xxxxxxxxxx</p>
+            <p>Jam Operasional : 08.00 – 20.00 WIB</p>
+        </div>
+
+    </div>
+
+    <div class="copyright">
+
+        © 2026 CEJIE Decoration. All Rights Reserved.
+
+    </div>
+
+</footer>
+
+</body>
+</html>
